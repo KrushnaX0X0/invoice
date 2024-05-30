@@ -1,7 +1,5 @@
 body{
-    background: linear-gradient(to right, #f1556f, black);
-    background-repeat: no-repeat;
-    overflow: hidden;
+    
 }
 .invoie-continer{
    height: 100vh;
@@ -50,7 +48,7 @@ body{
 }
 
 .headers{
-    padding: 1vh;
+    padding: 1.8vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -76,7 +74,7 @@ body{
     flex-direction: column;
     position: absolute;
     right: 147px;
-    bottom: 218px;
+    bottom: 150px;
     
 }
 .sub span{
@@ -90,19 +88,19 @@ body{
     background-color:grey;
     color: #fff;
     position: absolute;
-    bottom: 183px;
-    right: 153px;
+    bottom: 134px;
+    right: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #total{
-    margin-left: 150px;
+    margin-left: 145px;
 }
 .sign{
 position: absolute;
 bottom: 0;
-right: 94px;
+right: 20px;
 
 }
 .sign img{
@@ -116,10 +114,17 @@ right: 94px;
 
 @media  screen and (max-width:490px)
 {
+
+    .invoie-continer h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 6.5vw;
+    }
 .right{
-    font-size: 2vw;
+    font-size: 2.5vw;
     position: absolute;
-    right: 50px;
+    right: 70px;
     top: 8vh;
 
 }
@@ -135,7 +140,7 @@ right: 94px;
     flex-direction: column;
     position: absolute;
     right: 35px;
-    bottom: 242px;
+    bottom: 182px;
     
 }
 .sub span{
@@ -144,13 +149,13 @@ right: 94px;
    
 }
 .total{
-    height: 5vh;
+    height: 4vh;
     width: 33vw;
     background-color: grey;
     color: #fff;
     font-size: 3vw;
     position: absolute;
-    bottom: 214px;
+    bottom: 166px;
     right: 49px;
     display: flex;
     justify-content: center;
@@ -162,7 +167,7 @@ right: 94px;
 .sign{
 position: absolute;
 bottom: 0;
-right: 94px;
+right: 22px;
 
 }
 .sign img{
@@ -173,6 +178,124 @@ right: 94px;
         width: 27vw;
     }
 
+}
+
+@media screen and (min-width: 490px) and (max-width: 768px)
+{
+
+    .right{
+        font-size: 2.2vw;
+        position: absolute;
+        right: 70px;
+        top: 8vh;
+    
+    }
+
+    .sub{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 255px;
+        bottom: 140px;
+        
+    }
+
+    .sub span{
+        padding-left: 13vh;
+        
+         
+      }
+
+
+    .total{
+        height: 4vh;
+        width: 36vw;
+        background-color: grey;
+        color: #fff;
+        font-size: 3vw;
+        position: absolute;
+        bottom: 120px;
+        right: 219px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    #total{
+        margin-left:74px;
+    }
+
+    .sign{
+        position: absolute;
+        bottom: 0;
+        right: 94px;
+        
+        }
+        .sign img{
+            position: absolute;
+                bottom: -38px;
+                right: -41px;
+                height: 30vh;
+                width: 27vw;
+            }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px){
+    .right{
+        font-size: 1.8vw;
+        position: absolute;
+        right: 70px;
+        top: 8vh;
+    
+    }
+
+    .sub{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 191px;
+        bottom: 168px;
+        
+    }
+
+    .sub span{
+        padding-left: 13vh;
+        
+         
+      }
+
+
+    .total{
+        height: 4vh;
+        width: 23vw;
+        background-color: grey;
+        color: #fff;
+        font-size: 2vw;
+        position: absolute;
+        bottom: 154px;
+        right: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    #total{
+        margin-left:74px;
+    }
+
+    .sign{
+        position: absolute;
+        bottom: 0;
+        right: 94px;
+        
+        }
+        .sign img{
+            position: absolute;
+                bottom: -38px;
+                right: -41px;
+                height: 30vh;
+                width: 27vw;
+            }
 }
 
 
